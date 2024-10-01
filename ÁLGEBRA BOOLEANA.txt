@@ -1,0 +1,25 @@
+                                         ÁLGEBRA BOOLEANA
+
+
+ A Álgebra Booleana é um ramo muito importante da matemática, especialmente no mundo da computação. Ela lida com 
+valores chamados binários, ou seja, aqueles que podem ser apenas 0 ou 1. Esses dois números representam estados 
+simples, como "falso" e "verdadeiro", ou "desligado" e "ligado", algo que faz sentido quando pensamos em como os 
+circuitos eletrônicos funcionam. Por exemplo, em um computador, um transistor pode estar ligado (1) ou desligado 
+(0), o que já é suficiente para realizar cálculos complexos quando combinado com outros transistores.
+
+ Essa teoria foi desenvolvida por George Boole, um matemático britânico, em 1854, durante uma época em que a 
+eletrônica moderna ainda nem existia. O incrível é que a ideia dele se antecipou a muitos avanços tecnológicos! O 
+que Boole fez foi criar um conjunto de regras matemáticas para manipular esses valores de 0 e 1, de maneira que 
+pudéssemos realizar operações lógicas simples. Essas regras, conhecidas como "operações booleanas", incluem ações 
+como o AND (E), OR (OU) e NOT (NÃO), que são como os blocos de construção de qualquer circuito digital.
+
+ Hoje, a Álgebra Booleana é usada em sistemas digitais, que estão em todo lugar: desde computadores e smartphones 
+até a lógica por trás de semáforos e elevadores. A ideia é que, combinando essas operações, podemos construir 
+circuitos lógicos que tomam decisões automáticas baseadas em entradas. Por exemplo, um processador de computador, 
+que é feito de milhões de pequenos transistores, usa essas operações booleanas para tomar decisões rápidas em 
+frações de segundo, seguindo as regras que a Álgebra Booleana definiu.
+
+ O impacto dessa álgebra é tão vasto que, sem ela, a computação moderna como conhecemos simplesmente não existiria. 
+Todos os sistemas digitais dependem de suas operações lógicas para funcionar corretamente. Mesmo algo simples, como 
+uma pesquisa na internet ou abrir um aplicativo no seu celular, envolve uma cadeia de operações booleanas 
+acontecendo nos bastidores. Isso mostra como o trabalho de Boole continua extremamente relevante até hoje.
