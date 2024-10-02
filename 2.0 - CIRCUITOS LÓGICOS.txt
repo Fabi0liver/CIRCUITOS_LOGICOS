@@ -1,4 +1,4 @@
-                                        CIRCUITOS LÓGICOS
+                                         CIRCUITOS LÓGICOS
 
 
  Os circuitos lógicos são a espinha dorsal de praticamente todos os dispositivos digitais que usamos hoje, desde 
@@ -222,4 +222,67 @@ operações críticas em ambientes industriais.
 aplicam a uma vasta gama de tecnologias. Essa base de conhecimento é essencial para qualquer pessoa que deseje se 
 aventurar no campo da computação e da eletrônica, oferecendo um entendimento mais profundo de como os sistemas 
 funcionam em nosso mundo cada vez mais digitalizado.
+
+
+
+                                     "Circuitos Combinacionais"
+
+ Os circuitos combinacionais são um dos pilares fundamentais da eletrônica digital. Eles são projetados de tal 
+forma que a saída do circuito é determinada exclusivamente pelas entradas atuais, sem levar em conta qualquer 
+estado anterior. Essa característica é crucial em muitas aplicações onde a memória ou o histórico não são 
+relevantes, tornando esses circuitos altamente eficientes. Eles são amplamente utilizados em uma variedade de 
+dispositivos, desde calculadoras simples até cálculos complexos, desempenhando um papel vital na realização de 
+operações aritméticas e lógicas.
+
+ A superfície dos circuitos combinacionais se reflete em sua ampla gama de aplicações. Eles podem ser encontrados 
+em sistemas de controle, onde decisões rápidas precisam ser tomadas com base em entradas digitais, e em 
+dispositivos de interface que realizam comparações rápidas de dados. Exemplos comuns desses circuitos incluem 
+somadores e comparadores , cada um com suas funções específicas que são específicas para o 
+processamento eficaz de informações.
+
+ - Somador: É um circuito dedicado à soma de bits binários. O tipo mais simples é conhecido como meio-somador , 
+  que aceita duas entradas, denominadas A e B. Ele produz duas saídas: a soma e o "carry" (ou vai-um). A soma 
+  representa o resultado da adição dos dois bits, enquanto o transporte indica que houve um "transporte" que  
+  precisa ser considerado na próxima posição. Por exemplo, se A e B forem ambos 1, a saída da soma será 0 e o 
+  carry será 1, indicando que 1 deve ser adicionado na próxima coluna. Essa lógica é fundamental para entender 
+  como operações binárias simples são realizadas em circuitos digitais.
+  
+   Para operações mais complexas, onde três ou mais bits precisam ser somados, utilizamos o somador completo . 
+  Esse circuito é mais elaborado, pois leva em conta não apenas as duas entradas a serem somadas, mas também o 
+  transporte de operações anteriores. Ele possui três entradas: A, B e Carry-in, e gera duas saídas: a soma e o 
+  Carry-out. Essa estrutura permite que múltiplos somadores completos sejam encadeados, facilitando a soma de 
+  números binários de vários bits. Essa capacidade de encadeamento torna os somadores completos fundamentais em 
+  circuitos aritméticos, que são essenciais para o funcionamento de computadores e outros dispositivos digitais.
+
+
+ - Comparador: São circuitos específicos para comparar dois números binários e determinar a relação entre eles. 
+  Eles têm várias saídas que informam se um número é maior, menor ou igual ao outro. Por exemplo, um comparador de 
+  dois bits recebe duas entradas, A e B, e produz saídas três: uma que indica se A é maior que B, outra que indica 
+  se A é menor que B e uma terceira que indica se ambos são iguais. Essa funcionalidade é crucial em sistemas 
+  digitais que necessitam de decisões baseadas em comparações, como em sistemas de controle, onde é importante 
+  determinar a relação entre diferentes sinais.
+
+   Os comparadores podem variar em complexidade, desde aqueles que comparam apenas dois bits até aqueles que lidam 
+  com números binários de múltiplos bits, gerando resultados correspondentes para cada comparação. Em aplicações 
+  práticas, como em drivers de sistemas e algoritmos de economia, eles são utilizados para tomar decisões rápidas 
+  e precisas, influenciando como as informações são processadas e armazenadas. Por exemplo, em um sistema de 
+  controle de temperatura, uma comparação pode ajudar a temperatura normal, ligando ou desligando um aquecedor com 
+  base na comparação entre a temperatura desejada e a temperatura atual.
+
+ A importância dos circuitos combinacionais está na sua capacidade de realizar operações básicas, como a soma de 
+números e a comparação de valores, com base exclusivamente nas entradas atuais. Essa independência em relação ao 
+estado anterior torna esses circuitos não apenas mais rápidos, mas também mais simples de projetar, já que não 
+desativa sistemas de memória complexos. Eles formam a base das operações aritméticas e lógicas em sistemas 
+digitais, sendo cruciais para o funcionamento eficaz de computadores, calculadoras e uma ampla gama de 
+dispositivos eletrônicos.
+
+ Dessa maneira, compreender os circuitos combinacionais e suas funções é fundamental para qualquer pessoa que 
+deseje aprofundar-se no estudo da eletrônica digital e da computação. Esses circuitos são componentes-chave que 
+viabilizam o processamento eficiente de dados em uma variedade de aplicações, desde tarefas simples até funções 
+complexas em sistemas de tecnologia avançada. Ao o funcionamento dos circuitos combinacionais, você será um passo 
+mais próximo de entender como a ópera digital eletrônica e como as máquinas realizam cálculos e tomam decisões com 
+base em dados binários.
+
+
+
 
