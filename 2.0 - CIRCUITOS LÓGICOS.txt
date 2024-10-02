@@ -8,11 +8,11 @@ sistema simples, mas incrivelmente poderoso, baseado na lógica booleana , que s
 Esses números, que podem parecer insignificantes, na verdade representam a base de toda a computação moderna, 
 permitindo que máquinas tomam decisões e executam funções complexas.
 
- Embora possa parecer um assunto técnico e difícil à primeira vista, os circuitos lógicos podem ser compreendidos de 
-maneira bastante intuitiva. Pense neles como uma série de caminhos, por onde os sinais elétricos circulam, e cada 
-caminho tem uma função específica. Alguns desses caminhos só permitem a passagem do sinal se certas condições forem 
-atendidas, enquanto outros podem bloquear ou alterar o sinal. Esses mecanismos simples, quando combinados, criam 
-sistemas poderosos capazes de realizar cálculos, processar imagens, controlar dispositivos e muito mais.
+ Embora possa parecer um assunto técnico e difícil à primeira vista, os circuitos lógicos podem ser compreendidos 
+de maneira bastante intuitiva. Pense neles como uma série de caminhos, por onde os sinais elétricos circulam, e 
+cada caminho tem uma função específica. Alguns desses caminhos só permitem a passagem do sinal se certas condições 
+forem atendidas, enquanto outros podem bloquear ou alterar o sinal. Esses mecanismos simples, quando combinados, 
+criam sistemas poderosos capazes de realizar cálculos, processar imagens, controlar dispositivos e muito mais.
 
  O interessante dos circuitos lógicos é que, por mais complexos que sejam os dispositivos que eles controlam, o 
 princípio básico continua sendo bastante simples: tratar os sinais elétricos como uma série de escolhas entre dois 
@@ -25,3 +25,36 @@ possibilidades.
 são a base para tornar os computadores, smartphones e até mesmo controles remotos capazes de operar. Embora muitas 
 vezes invisíveis ao usuário, esses circuitos formam uma rede de processos e decisões que garantem que os 
 dispositivos realizem exatamente o que precisamos, no tempo certo e da maneira certa.
+
+
+
+                          "Um Pouco da História dos Circuitos Lógicos"
+
+ A história dos circuitos lógicos tem suas raízes na lógica booleana, desenvolvida por George Boole em 1854. Ele 
+publicou um trabalho revolucionário chamado "An Investigation of the Laws of Thought" , no qual apresentou um 
+sistema matemático que lidava com dois estados: verdadeiro (1 ) e falso (0). Esses dois estados são uma base de 
+lógica binária, que seria crucial para o desenvolvimento de sistemas digitais. Embora, na época, Boole não tivesse 
+pensado diretamente em computadores, suas ideias forneceram uma base teórica que permitiu a construção de 
+circuitos capazes de tomar decisões e processar informações.
+
+ O primeiro grande passo na aplicação prática da lógica booleana ocorreu com Claude Shannon em 1937, durante sua 
+tese de mestrado. Shannon mostrou como as equações booleanas podem ser usadas para simplificar o projeto de 
+sistemas elétricos, como redes de objetos e controle de circuitos. Ele traduziu essencialmente a matemática de 
+Boole em circuitos elétricos que podiam realizar operações lógicas, o que realizou uma verdadeira revolução. Esse 
+conceito foi aplicado inicialmente em sistemas militares, ajudando na criação de máquinas para decodificar 
+mensagens e em sistemas de comunicação, especialmente durante a Segunda Guerra Mundial.
+
+ Outro marco fundamental na evolução dos circuitos lógicos foi a invenção do transistor em 1947, por John 
+Bardeen , Walter Brattain e William Shockley . Os transistores substituíram as antigas válvulas de vácuo, que eram 
+grandes, lentas e consumiam muita energia. Com os transistores, tornou-se possível criar circuitos menores, mais rápidos e muito mais eficientes. Isso foi o ponto de partida para a criação dos primeiros computadores digitais 
+comerciais, que surgiram nas décadas de 1950 e 1960. A miniaturização fornecida pelos transistores permitiu que os 
+computadores deixassem de ser enormes máquinas ocupando salas inteiras para se tornarem dispositivos mais 
+compactos e acessível.
+
+ A partir dos anos 1970, com o surgimento dos microprocessadores e dos circuitos integrados , a evolução dos 
+circuitos lógicos atingiu novos patamares. Esses avanços permitiram que milhões de portas lógicas fossem colocadas 
+em um único chip de silício, revolucionando a computação. Isso possibilitou o surgimento de computadores pessoais, 
+smartphones e outros dispositivos eletrônicos que conhecemos hoje. A capacidade de realizar operações lógicas de 
+maneira rápida e eficiente em dispositivos cada vez melhorou completamente o cenário tecnológico e impulsionou a 
+criação de sistemas digitais cada vez mais poderosos.
+
