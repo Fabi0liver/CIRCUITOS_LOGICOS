@@ -19,7 +19,10 @@ circuitos lógicos que tomam decisões automáticas baseadas em entradas. Por ex
 que é feito de milhões de pequenos transistores, usa essas operações booleanas para tomar decisões rápidas em 
 frações de segundo, seguindo as regras que a Álgebra Booleana definiu.
 
- O impacto dessa álgebra é tão vasto que, sem ela, a computação moderna como conhecemos simplesmente não existiria. Todos os sistemas digitais dependem de suas operações lógicas para funcionar corretamente. Mesmo algo simples, como uma pesquisa na internet ou abrir um aplicativo no seu celular, envolve uma cadeia de operações booleanas acontecendo nos bastidores. Isso mostra como o trabalho de Boole continua extremamente relevante até hoje.
+ O impacto dessa álgebra é tão vasto que, sem ela, a computação moderna como conhecemos simplesmente não existiria. 
+Todos os sistemas digitais dependem de suas operações lógicas para funcionar corretamente. Mesmo algo simples, como 
+uma pesquisa na internet ou abrir um aplicativo no seu celular, envolve uma cadeia de operações booleanas acontecendo
+nos bastidores. Isso mostra como o trabalho de Boole continua extremamente relevante até hoje.
 
 
 
