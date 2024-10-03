@@ -46,7 +46,8 @@ mensagens e em sistemas de comunicação, especialmente durante a Segunda Guerra
 
  Outro marco fundamental na evolução dos circuitos lógicos foi a invenção do transistor em 1947, por John 
 Bardeen , Walter Brattain e William Shockley . Os transistores substituíram as antigas válvulas de vácuo, que eram 
-grandes, lentas e consumiam muita energia. Com os transistores, tornou-se possível criar circuitos menores, mais rápidos e muito mais eficientes. Isso foi o ponto de partida para a criação dos primeiros computadores digitais 
+grandes, lentas e consumiam muita energia. Com os transistores, tornou-se possível criar circuitos menores, mais
+rápidos e muito mais eficientes. Isso foi o ponto de partida para a criação dos primeiros computadores digitais 
 comerciais, que surgiram nas décadas de 1950 e 1960. A miniaturização fornecida pelos transistores permitiu que os 
 computadores deixassem de ser enormes máquinas ocupando salas inteiras para se tornarem dispositivos mais 
 compactos e acessível.
