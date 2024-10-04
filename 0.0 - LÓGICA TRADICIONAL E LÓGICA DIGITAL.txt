@@ -1,0 +1,44 @@
+                               LÓGICA TRADICIONAL E LÓGICA BOOLEANA
+
+ 
+ A lógica tradicional, também conhecida como lógica aristotélica, é um sistema de cálculo formal que surgiu na ]
+Grécia Antiga, sendo formalizado por Aristóteles. Ela se baseia no uso de proposições que podem ser verdadeiras ou 
+falsas e utiliza o raciocínio dedutivo para chegar a bases lógicas. O resumo dedutivo é como seguir uma trilha 
+clara: se nós vamos com metas verdadeiras, a conclusão será verdadeira. Imagine que você está montando um quebra-
+cabeça e, se todas as peças se encaixarem corretamente, a imagem final estará correta. É assim que a lógica 
+tradicional funciona, garantindo que as ideias sejam organizadas de forma a fazer sentido.
+
+ Um dos conceitos centrais dessa lógica é o silogismo , que é uma forma de argumentação onde duas premissas levam 
+a uma conclusão. Por exemplo, se dizemos "Todos os humanos são mortais" e "Sócrates é humano", podemos concluir 
+que "Sócrates é mortal". Esse tipo de raciocínio é bastante útil para organizar o pensamento e evitar 
+contradições. Além disso, a lógica tradicional também se baseia em princípios como o da não contradição, que 
+garante que algo não pode ser verdadeiro e falso ao mesmo tempo, e o terceiro excluído, que define que uma 
+proposição deve ser ou verdadeira ou falsa, sem uma terceira opção.
+
+ Agora, a influência dessa lógica no mundo moderno, especialmente na lógica digital, é imensa. No século XIX, 
+George Boole adaptou os princípios da lógica tradicional para criar a álgebra booleana, que utiliza valores 
+binários (0 e 1) para representar verdadeiro e falso. Esse sistema binário se tornou uma base de lógica digital, 
+utilizada em computadores. Assim como na lógica tradicional, onde temos proposições que podem ser verdadeiras ou 
+falsas, na lógica digital usamos 1 e 0 para representar esses estados, o que permitiu o desenvolvimento de 
+circuitos eletrônicos e portas lógicas, que são como os "silogismos" das máquinas.
+
+ A lógica digital, então, desenvolveu suas operações com base nesses conceitos herdados da lógica tradicional. 
+Imagine que você está resolvendo um problema com passos claros, onde "se isso é verdade, então aquilo também 
+será". Isso é o que acontece em um computador, mas de forma muito mais rápida e com números. As portas lógicas 
+(AND, OR, NOT), que são os blocos de construção dos circuitos digitais, funcionam como as regras de lógica 
+aristotélica aplicadas em eletrônica. Essa adaptação da lógica tradicional foi fundamental para a criação dos 
+computadores modernos e de toda a tecnologia que dependemos hoje.
+
+ Portanto, a lógica tradicional trouxe o alicerce teórico que foi adaptada para a construção do cálculo digital. 
+Sem esses conceitos iniciais sobre proposições e dedução, seria difícil imaginar como a lógica binária e os 
+computadores contidos foram criados. É como se a lógica tradicional fosse o esqueleto, e a lógica digital o corpo 
+completo que funciona nas máquinas atuais.
+
+
+
+
+
+
+
+
+ 
