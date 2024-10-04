@@ -36,6 +36,41 @@ completo que funciona nas máquinas atuais.
 
 
 
+                                         "Lógica Digital"
+
+ A lógica digital é como o alicerce de todas as tecnologias modernas. Imagine que ela é o sistema nervoso que 
+conecta e coordena o funcionamento de dispositivos eletrônicos como computadores, smartphones, tablets e até 
+carros autônomos. Tudo o que fazemos nesses aparelhos, seja assistir a vídeos, enviar mensagens ou cálculos 
+complexos, depende desse tipo de lógica. E, ao contrário de uma lógica humana cheia de nuances e subjetividade, a 
+lógica digital é extremamente precisa, trabalhando de maneira binária, ou seja, com dois estados bem definidos: o 
+ligado e o desligado , representados pelos números 1 e 0.
+
+ Historicamente, a lógica digital começou a ganhar forma no início do século XX, com o avanço da eletrônica. As 
+primeiras bases teóricas vieram da álgebra booleana, uma forma de matemática desenvolvida no século XIX por George 
+Boole. Sua ideia de representar o raciocínio lógico com apenas dois valores (verdadeiro e falso) se tornou uma 
+chave para o desenvolvimento da tecnologia digital. No entanto, foi apenas com o surgimento dos transistores e 
+circuitos eletrônicos que essas ideias saíram do papel e se transformaram em uma prática base para a criação de 
+máquinas capazes de "pensar" digitalmente.
+
+ A transição da lógica tradicional, que lidava com conceitos abstratos e proposições filosóficas, para a lógica 
+digital, que operava com circuitos físicos e números binários, foi um marco revolucionário. Isso é elaborado para 
+passar de um mapa mental de planejamento para uma bússola digital de navegação: ambos ajudam a chegar ao destino, 
+mas um é feito à mão e depende da interpretação, enquanto o outro é automático e preciso.
+
+ Nas décadas seguintes, essa evolução envolveu a criação dos primeiros computadores e, ao longo do tempo, foi 
+refinada até chegarmos aos dispositivos altamente complexos e interconectados que usamos hoje. O que começou como 
+uma simples representação binária se expandiu para dominar todo o campo da computação e da eletrônica, moldando o 
+mundo moderno como o conhecemos.
+
+ Entender a lógica digital é como aprender a base de uma língua que todos os nossos dispositivos falam – uma 
+língua que, embora pareça complexa à primeira vista, é baseada em conceitos simples e extremamente organizados.
+
+
+
+                                          "Principais Conceitos"
+
+
+
 
 
 
