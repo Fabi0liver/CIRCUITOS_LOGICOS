@@ -69,7 +69,11 @@ língua que, embora pareça complexa à primeira vista, é baseada em conceitos 
 
                                          "Principais Conceitos"
 
- A lógica digital pode parecer um assunto complicado à primeira vista, mas é fundamental para o funcionamento de quase todos os dispositivos eletrônicos que usamos diariamente. Imagine que todos esses aparelhos, de smartphones a computadores, falam uma linguagem muito simples, composta apenas de “0” e “1”. Esses números podem parecer apenas símbolos, mas, para o mundo digital, eles são como interruptores que ligam e desligam processos, permitindo que as máquinas tomem decisões, façam cálculos e processem grandes quantidades de informações.
+ A lógica digital pode parecer um assunto complicado à primeira vista, mas é fundamental para o funcionamento de 
+quase todos os dispositivos eletrônicos que usamos diariamente. Imagine que todos esses aparelhos, de smartphones 
+a computadores, falam uma linguagem muito simples, composta apenas de “0” e “1”. Esses números podem parecer 
+apenas símbolos, mas, para o mundo digital, eles são como interruptores que ligam e desligam processos, permitindo
+que as máquinas tomem decisões, façam cálculos e processem grandes quantidades de informações.
 
  Nesta explicação, vamos explorar alguns dos principais conceitos que formam a base da lógica digital, começando 
 com o conceito de bit e passando por portas lógicas, circuitos combinacionais e a poderosa álgebra booleana, que 
@@ -250,18 +254,3 @@ interagir, tornando possível o rápido avanço tecnológico que vivemos nas úl
 legado e o transformou em uma ferramenta poderosa para as máquinas. Hoje, essas máquinas são capazes de realizar 
 cálculos complexos em frações de segundo, processar vastas quantidades de dados e conectar o mundo inteiro por 
 meio da tecnologia, mostrando como uma ideia simples pode moldar o futuro de maneira extraordinária.
-
-
-
-   
-
-  
-
-
-
-
-
-
-
-
- 
