@@ -373,7 +373,8 @@ um mundo onde a inovação e a precisão andam de mãos dadas.
                                       "Porta Lógica NAND"
 
  A porta lógica NAND é uma das mais fundamentais e essenciais no universo dos circuitos digitais. Ela segue uma 
-lógica simples, mas poderosa: sua função é comparar duas (ou mais) entradas e retornar uma saída falsa (ou seja, 0) somente quando todas as entradas forem verdadeiras. Caso contrário, a saída será verdadeira (ou seja, 1). Pense 
+lógica simples, mas poderosa: sua função é comparar duas (ou mais) entradas e retornar uma saída falsa (ou seja, 0) 
+somente quando todas as entradas forem verdadeiras. Caso contrário, a saída será verdadeira (ou seja, 1). Pense 
 nela como uma condição "não e" em nosso dia a dia: “Se o céu não estiver limpo ou eu não tiver tempo livre, eu não 
 vou ao parque.” Basta que uma das condições não seja verdadeira para que o passeio não aconteça, e a porta NAND 
 funciona exatamente assim.
