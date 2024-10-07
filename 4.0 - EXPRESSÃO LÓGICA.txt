@@ -123,7 +123,31 @@ práticos.
 
     * Símbolo usado: ⊕.
 
-    * 
+    * Exemplo: Se A = 1 e B = 0, a expressão A ⊕ B resultará em 1. Se A = 1 e B = 1, o resultado será 0.
+
+   A porta XOR é útil quando queremos que apenas uma das condições seja verdadeira, excluindo a possibilidade de 
+  ambas serem verdadeiras simultaneamente.
+
+
+ - Porta XNOR (Não OU Exclusivo): A porta XNOR é o inverso da porta XOR. Ela retorna verdadeiro quando ambas as 
+  entradas são iguais.
+
+    * Representação na expressão lógica: Representada pela Porta XOR negada ou por um circulo com um ponto no  
+                                        centro.
+
+    * Símbolo usado: ¬(A ⊕ B) ou ⊙.
+
+    * Exemplo: Se A = 1 e B = 1, a expressão A ⊙ B resultará em  1. Se A = 1 e B = 0, o resultado será 0.
+
+   A porta XNOR garante que o resultado será verdadeiro somente quando as entradas forem iguais, sendo ideal em 
+  verificações de igualdade entre variáveis.
+
+
+ As portas lógicas são essenciais para construir circuitos e operações lógicas complexas. Cada porta tem sua 
+própria forma de ser representada em expressões lógicas, facilitando a visualização e o entendimento do 
+comportamento dos circuitos. Ao combinar essas portas, podemos construir sistemas que realizam desde simples 
+decisões até cálculos complexos. Entender a representação das portas é crucial para trabalhar com expressões 
+lógicas de maneira eficiente e precisa.
  
  
                
