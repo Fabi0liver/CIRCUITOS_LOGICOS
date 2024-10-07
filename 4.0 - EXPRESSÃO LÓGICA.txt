@@ -1,0 +1,15 @@
+                                   EXPRESSÃO LÓGICA
+
+ As equações lógicas são uma peça fundamental no mundo da computação e da eletrônica, e sua compreensão é essencial para entender como os sistemas digitais tomam decisões. Eles são baseados na lógica booleana, que é uma forma de álgebra onde os valores são limitados a dois estados: verdadeiro ou falso , que também podem ser representados pelos números 1 e 0. Esses conceitos podem parecer abstratos à primeira vista, mas estão presentes em Praticamente tudo que envolve tecnologia, desde algoritmos complexos até o simples ato de desligar ou desligar um dispositivo.
+
+ Uma expressão lógica nada mais é do que uma combinação de variáveis ​​(ou condições) e operadores lógicos, que determinam como essas variáveis ​​interagem. A cada combinação dessas variáveis, o resultado final sempre será uma de duas opções: verdadeiro ou falso. É como uma série de perguntas que só podem ser respondidas com "sim" ou "não", sem espaço para talvez ou respostas questionáveis. Por exemplo, imagine que você está decidindo se deve ou não sair de casa. Se você estiver ensolarado e tiver tempo livre, a resposta seria "sim". Mas se alguma dessas condições não for verdadeira, você provavelmente ficará em casa. Essa forma de pensar é exatamente o que as expressões lógicas fazem no mundo da computação.
+
+ No coração da computação, essas expressões são específicas porque os sistemas digitais precisam tomar decisões 
+rápidas e eficientes. Por exemplo, quando um computador precisa verificar se você está autorizado a realizar  uma ação, ele avaliará uma série de condições lógicas. Estar logado e ter permissões de administrador são dois fatores. Se ambas as condições forem verdadeiras, o sistema permite o acesso; Caso contrário, a ação será bloqueada. Esse tipo de tomada de decisão é feito através de expressões lógicas , e é assim que as máquinas simulam um "pensamento binário".
+
+ Além disso, as expressões lógicas não se limitam apenas ao software. No hardware, como os circuitos eletrônicos, 
+essas expressões controlam o fluxo de corrente elétrica. Componentes conhecidos como portas lógicas utilizam essas 
+expressões para determinar o comportamento de dispositivos eletrônicos, o que torna possível o funcionamento de 
+smartphones, computadores e muitos outros aparelhos. Em resumo, tanto no software quanto no hardware, as expressões lógicas garantem que tudo funcione de maneira ordenada e eficiente.
+
+ Portanto, compreender as expressões lógicas é como aprender o alfabeto de uma nova linguagem – uma linguagem que rege todos os processos computacionais e eletrônicos ao nosso redor. Eles representam o caminho mais direto entre um problema e sua solução, orientando o processamento de dados e o comportamento dos sistemas digitais. No final, entender essas expressões é o primeiro passo para decifrar a lógica por trás do funcionamento de praticamente todas as máquinas modernas.
