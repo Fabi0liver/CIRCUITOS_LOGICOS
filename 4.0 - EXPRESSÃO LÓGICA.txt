@@ -258,5 +258,51 @@ fazer cálculos complexos em papel, podemos simplesmente olhar para o mapa e ver
 circuitos mais eficientes. Com a prática, você pode se tornar um especialista em simplificar expressões, 
 economizando tempo e recursos na construção de sistemas digitais. A lógica não precisa ser complicada; ao 
 contrário, pode ser uma ferramenta poderosa e acessível. 
- 
-               
+
+
+
+                          "Precedência em expressões lógicas"
+
+ A precedência em expressões lógicas é um conceito importante que determina a ordem em que as operações lógicas 
+são avaliadas. Isso é semelhante à ordem de operações em matemática (como PEMDAS: Parênteses, Expoentes, 
+Multiplicação e Divisão, Adição e Subtração). Compreender a precedência ajuda a evitar confusões e garante que o 
+resultado da expressão seja o esperado.
+
+ Para facilitar a compreensão, podemos pensar na precedência em expressões lógicas como o funcionamento de uma 
+fábrica. Se você tem várias máquinas (operadores) que realizam tarefas (operações), você precisa saber qual 
+máquina deve começar a trabalhar primeiro para garantir que o produto final saia correto. Se você não seguir a 
+ordem certa, pode acabar com um produto defeituoso.
+
+ A precedência em expressões lógicas define a sequência em que os operadores lógicos são aplicados ao resolver uma 
+expressão.  Aqui estão os operadores lógicos comuns, listados da maior para a menor precedência:
+
+ * 1º Parênteses: ( )
+
+ * 2º NOT (NÃO): ¬A ou A̅ 
+
+ * 3º AND (E): AB ou ⋅ 
+
+ * 4º OR (OU): +
+
+ Para ilustrar como a precedência funciona, vamos considerar algumas expressões lógicas e como elas seriam 
+avaliadas:
+
+ - Exemplo 1: NOT A AND B
+
+      Aqui, a operação NOT é realizada primeiro. Portanto, você primeiro avalia A e depois aplica a negação a ele 
+     antes de aplicar o operador AND.
+
+ - Exemplo 2: A OR B AND C
+
+      Neste caso, a operação AND tem precedência sobre OR. Portanto, você primeiro avalia B AND C e, em seguida, 
+     combina o resultado com A usando o operador OR.
+
+ Compreender a precedência é fundamental para evitar erros em expressões lógicas. Se você não estiver ciente de 
+como as operações são priorizadas, pode acabar obtendo resultados inesperados.
+
+ A precedência em expressões lógicas é um conceito vital para a avaliação correta de expressões. Entender a ordem 
+em que os operadores são aplicados pode evitar confusões e garantir que os resultados sejam previsíveis. Com a 
+prática e a familiaridade com esses operadores, você pode se tornar mais eficiente em resolver expressões lógicas 
+e aplicá-las em contextos práticos, como programação e design de circuitos eletrônicos. Se você seguir essa 
+lógica, ficará cada vez mais confortável e habilidoso no manuseio de expressões lógicas!
+                
