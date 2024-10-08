@@ -230,7 +230,7 @@ informadas no design e na implementação de tecnologia.
 
 
 
-                             "Simplificação de Expressões Lógicas"
+                             "Simplificação ou Equivalencia de Expressões Lógicas"
 
  No mundo da lógica e da computação, as expressões lógicas podem, muitas vezes, ser simplificadas para torná-las 
 mais eficientes, sem mudar o resultado final. Essa simplificação é especialmente crucial no design de circuitos 
