@@ -155,6 +155,92 @@ maneira eficiente. Vamos explorar como cada uma delas funciona e por que são t�
  vital na organização de expressões lógicas. Ela nos dá a flexibilidade de redistribuir as operações sem alterar o 
  resultado final, o que facilita bastante o trabalho de projetar e simplificar circuitos lógicos.
 
+
+- Propriedade de Identidade:
+
+  A Propriedade de Identidade afirma que, ao combinar uma variável lógica com um valor de identidade, o resultado 
+ final permanece inalterado. Para as operações lógicas, temos duas propriedades de identidade: para a operação 
+ AND, o valor de identidade é 1, e para a operação OR, o valor de identidade é 0. Em outras palavras, quando você 
+ combina uma variável lógica com 1 em uma operação AND, o resultado será sempre a própria variável. Da mesma 
+ forma, quando você combina uma variável lógica com 0 em uma operação OR, o resultado também será a própria 
+ variável. Isso acontece porque, nas portas lógicas, o valor de identidade mantém o estado da variável envolvida, 
+ sem alterá-lo.
+
+   - AND: A · 1 = A
+
+   - OR:  A + 0 = A
+
+  Imagine que você está preparando um bolo. Você tem todos os ingredientes prontos: farinha, açúcar, manteiga,  
+ etc. Agora, se você adicionar a manteiga (que representa o valor de identidade na operação AND) ao bolo, o 
+ resultado ainda será a mistura dos outros ingredientes — a manteiga não altera a receita. Da mesma forma, na 
+ lógica digital, as operações AND e OR respeitam essa regra de identidade: a presença de um valor de identidade 
+ não modifica o resultado final.
+
+  Essa ideia pode ser aplicada também à matemática básica: na adição simples, 5 + 0 é o mesmo que 5. O mesmo 
+ princípio se aplica às portas lógicas, onde podemos combinar uma variável com seu valor de identidade sem 
+ preocupar com o impacto no resultado.
+
+   - Exemplo: Vamos imaginar que temos dois interruptores, A e B, que controlam uma lâmpada. Se os interruptores 
+             estão ligados em uma configuração AND, a lâmpada só acenderá se ambos os interruptores estiverem na 
+             posição "ligada" (ou seja, ambos forem 1). Agora, se A estiver ligado e B for 1 (o valor de 
+             identidade), a lâmpada ainda acenderá porque A já garante o resultado. Aqui, a presença de B não 
+             influencia o resultado — o que importa é que A esteja ligado.
+
+              Por outro lado, se esses interruptores estiverem configurados em uma porta OR, a lâmpada acenderá se 
+             qualquer um dos interruptores for ativado. Se A estiver ligado e B for 0 (o valor de identidade), a 
+             lâmpada também acenderá porque A garante o resultado. Novamente, a presença de B não faz diferença: 
+             se A estiver ligado, o resultado será 1 (luz acesa), independentemente do estado de B. A operação OR, 
+             assim como a AND, respeita a propriedade de identidade: o valor de identidade não altera o resultado 
+             final.
+
+  A Propriedade de Identidade é uma das fundações da lógica digital. Embora pareça simples, ela desempenha um   
+ papel vital na organização de expressões lógicas. Ela nos dá a certeza de que a presença de um valor de 
+ identidade não muda o resultado final, o que facilita bastante o trabalho de projetar e simplificar circuitos  
+ lógicos.
+
+
+- Propriedade de Complemento:
+
+  A Propriedade de Complemento afirma que a combinação de um valor lógico e seu complemento resulta sempre em
+ 1 (verdadeiro). Em outras palavras, para qualquer variável lógica A, se você combinar A com seu complemento 
+ (representado como A'), o resultado será 1. Essa propriedade é fundamental em lógica digital, pois estabelece que 
+ um estado e seu oposto sempre cobrem todas as possibilidades.
+
+  Nas portas lógicas, essa propriedade é evidenciada em operações de AND e OR. Quando você tem uma porta AND, a 
+ operação resultará em 0 (falso) se pelo menos um dos operandos for 0, enquanto em uma porta OR, a operação 
+ resultará em 1 (verdadeiro) se pelo menos um dos operandos for 1. Assim, o efeito da Propriedade de Complemento 
+ pode ser visualizado ao considerar que a combinação de um valor e seu oposto sempre resulta em verdadeiro.
+
+   - AND: A · A' = 0
+
+   - OR:  A + A' = 1
+
+  Imagine que você está preparando um bolo e decide adicionar sal. Agora, não importa se você mistura o sal antes  
+ ou depois do açúcar — o bolo final terá um sabor salgado se você adicionar sal a qualquer momento. Isso porque o 
+ resultado não depende da sequência dos ingredientes, mas da presença do sal no bolo. Da mesma forma, na lógica 
+ digital, a operação entre uma variável e seu complemento é como garantir que todos os sabores estejam presentes, 
+ resultando em um resultado definitivo.
+
+  Essa ideia também pode ser aplicada à matemática básica: se você tem um número e subtrai esse mesmo número, o  
+ resultado é sempre zero. O mesmo princípio se aplica às portas lógicas, onde podemos combinar uma entrada com seu 
+ complemento para garantir um resultado claro.
+
+   - Exemplo: Vamos imaginar que temos dois interruptores, A e A', que controlam uma lâmpada. Se os interruptores 
+             estão ligados em uma configuração AND, a lâmpada nunca acenderá, pois sempre haverá um estado em que 
+             pelo menos um dos interruptores estará desligado (ou seja, 0). Aqui, a combinação de um valor e seu 
+             complemento resulta em 0 (luz apagada).
+
+              Por outro lado, se esses interruptores estiverem configurados em uma porta OR, a lâmpada acenderá 
+             independentemente de qual interruptor for ativado, pois sempre que um deles estiver ligado, o 
+             resultado será 1 (luz acesa). A operação OR, assim como a AND, respeita a Propriedade de Complemento: 
+             quando você combina uma variável com seu complemento, o resultado final será sempre 1.
+
+  A Propriedade de Complemento é uma das fundações da lógica digital. Embora pareça simples, ela desempenha um 
+ papel vital na organização de expressões lógicas. Ela nos fornece a certeza de que a presença de um valor e seu 
+ oposto cobrirão todas as possibilidades, o que facilita bastante o trabalho de projetar e simplificar circuitos 
+ lógicos.
+
+  
  
 
  
