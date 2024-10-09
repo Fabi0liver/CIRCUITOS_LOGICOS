@@ -241,6 +241,48 @@ maneira eficiente. Vamos explorar como cada uma delas funciona e por que são t�
  lógicos.
 
   
- 
+- Propriedade de Anulação:
+
+  A Propriedade de Anulação afirma que, em uma expressão lógica, a presença de um valor específico pode determinar 
+ o resultado final, tanto para operações de AND (representada como uma multiplicação lógica) quanto para operações 
+ de OR (adição lógica). Em outras palavras, se você tiver um valor que anula a operação, o resultado permanecerá o 
+ mesmo. Isso acontece porque, nas portas lógicas, o importante é como um determinado valor pode influenciar a 
+ operação final.
+
+  Nas portas AND, a operação só resulta em 1 (verdadeiro) quando todos os operandos são 1. Se algum deles for 0, o 
+ resultado é 0 (falso). Já nas portas OR, basta que um dos operandos seja 1 para que o resultado seja 1; o único 
+ cenário em que o resultado será 0 é quando todos os operandos forem 0. Sendo assim, o efeito da anulação pode ser 
+ visualizado ao introduzirmos os valores em uma dessas portas: um 0 em uma operação AND tornará o resultado final 
+ 0, enquanto um 1 em uma operação OR garantirá que o resultado final seja 1.
+
+   - AND: A · 0 = 0 (A anula o resultado)
+
+   - OR:  A + 1 = 1 (1 anula o resultado)
+
+  Imagine que você está preparando um bolo. Você tem todos os ingredientes prontos: farinha, açúcar, manteiga, 
+ etc. Agora, se você decidir não colocar açúcar (equivalente a um 0 em uma operação AND), o bolo não ficará doce, 
+ independentemente da quantidade de outros ingredientes. Isso porque a ausência do açúcar (0) anula o resultado 
+ final. Da mesma forma, na lógica digital, a operação AND respeita essa regra de anulação: um valor de entrada de 
+ 0 anula a operação.
+
+  Essa ideia pode ser aplicada também à matemática básica: na multiplicação simples, 5 × 0 é o mesmo que 0. O 
+ mesmo princípio se aplica às portas lógicas, onde a presença de um valor que anula a operação influencia 
+ diretamente o resultado.
+
+   - Exemplo: Vamos imaginar que temos dois interruptores, A e B, que controlam uma lâmpada. Se os interruptores 
+             estão ligados em uma configuração AND, a lâmpada só acenderá se ambos os interruptores estiverem na 
+             posição "ligada" (ou seja, ambos forem 1). Aqui, se um dos interruptores estiver desligado (0), a  
+             lâmpada não acenderá. O que importa é que a presença de um 0 anula a possibilidade de acender a luz.
+
+              Por outro lado, se esses interruptores estiverem configurados em uma porta OR, a lâmpada acenderá se 
+             qualquer um dos interruptores for ativado. Nesse caso, se um dos interruptores estiver ligado (1), a 
+             lâmpada acenderá independentemente do estado do outro. Se apenas um interruptor for ligado, o 
+             resultado será 1 (luz acesa), e se ambos forem desligados, o resultado será 0 (luz apagada). A 
+             operação OR, assim como a AND, respeita a propriedade de anulação: um 1 na operação OR garante que a 
+             lâmpada acenda.
+
+  A Propriedade de Anulação é uma das fundações da lógica digital. Embora pareça simples, ela desempenha um papel 
+ vital na organização de expressões lógicas. Ela nos dá a certeza de que certos valores, quando presentes, definem 
+ resultados fixos, o que facilita bastante o trabalho de projetar e simplificar circuitos lógicos.
 
  
