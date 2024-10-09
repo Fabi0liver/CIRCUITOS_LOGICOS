@@ -1,17 +1,17 @@
-                                  PROPRIEDADE LÓGICAS
+                                      PROPRIEDADE LÓGICAS
 
 
  Imagine que o mundo digital funcione como um grande quebra-cabeça onde todas as peças precisam se encaixar 
 perfeitamente para que a tecnologia, desde smartphones até supercomputadores, opere de forma eficiente. Nesse 
 contexto, as propriedades lógicas são como regras fundamentais que organizam essas peças, garantindo que as 
-operações lógicas aconteçam corretamente. Quando engenheiros ou programadores projetam um sistema ou código, eles se 
-baseiam nessas regras para otimizar processos, reduzir desperdícios e aumentar a eficiência.
+operações lógicas aconteçam corretamente. Quando engenheiros ou programadores projetam um sistema ou código, eles 
+se baseiam nessas regras para otimizar processos, reduzir desperdícios e aumentar a eficiência.
 
- Pense, por exemplo, em como organizamos tarefas no dia a dia: se precisamos limpar a casa, fazer compras e ainda ir 
-ao banco, a ordem e a maneira como executamos essas tarefas podem simplificar ou complicar o processo. As 
-propriedades lógicas funcionam de maneira semelhante. Elas nos permitem organizar operações digitais da maneira mais 
-eficiente, eliminando redundâncias e garantindo que o sistema funcione de forma otimizada. Esse tipo de abordagem 
-não só economiza tempo, mas também poupa recursos, tanto no software quanto no hardware.
+ Pense, por exemplo, em como organizamos tarefas no dia a dia: se precisamos limpar a casa, fazer compras e ainda 
+ir ao banco, a ordem e a maneira como executamos essas tarefas podem simplificar ou complicar o processo. As 
+propriedades lógicas funcionam de maneira semelhante. Elas nos permitem organizar operações digitais da maneira 
+mais eficiente, eliminando redundâncias e garantindo que o sistema funcione de forma otimizada. Esse tipo de 
+abordagem não só economiza tempo, mas também poupa recursos, tanto no software quanto no hardware.
 
  Outra analogia útil seria o funcionamento de um time de futebol. Cada jogador tem uma função específica, e o time 
 precisa trabalhar em conjunto para marcar gols. As propriedades lógicas são como as regras do jogo — elas definem 
@@ -23,3 +23,51 @@ melhor as ferramentas à nossa disposição.
 nas propriedades lógicas. Elas são a base para otimizar processos, simplificar circuitos e criar sistemas digitais 
 inteligentes. Estas propriedades serão como uma caixa de ferramentas para resolver problemas mais complexos de 
 maneira eficiente. Vamos explorar como cada uma delas funciona e por que são tão essenciais para o mundo digital.
+
+
+* Propriedade Comutativa:
+
+  A Propriedade Comutativa afirma que a ordem dos operandos em uma expressão lógica não altera o resultado final,  
+ tanto para operações de AND (representada como uma multiplicação lógica) quanto para operações de OR (adição 
+ lógica). Em outras palavras, se você trocar a ordem dos valores ou variáveis envolvidos, o resultado permanecerá  
+ o mesmo. Isso acontece porque, nas portas lógicas, o importante é o estado final dos valores e não a sequência em 
+ que eles são processados.
+
+  Nas portas AND, a operação só resulta em 1 (verdadeiro) quando todos os operandos são 1. Se algum deles for 0, o 
+ resultado é 0 (falso). Já nas portas OR, basta que um dos operandos seja 1 para que o resultado seja 1; o único 
+ cenário em que o resultado será 0 é quando todos os operandos forem 0. Sendo assim, o efeito da comutatividade 
+ pode ser visualizado ao reorganizarmos os valores de entrada em uma dessas portas: o resultado final se mantém 
+ inalterado, independentemente da ordem de entrada.
+
+   - AND: A · B = B · A
+
+   - OR:  A + B = B + A
+
+  Imagine que você está preparando um bolo. Você tem todos os ingredientes prontos: farinha, açúcar, manteiga, 
+ etc. Agora, não importa se você mistura o açúcar antes da farinha ou se coloca a farinha antes do açúcar — o bolo 
+ final será o mesmo. Isso porque o resultado não depende da sequência dos ingredientes, mas da combinação final 
+ deles. Da mesma forma, na lógica digital, as operações AND e OR seguem essa regra de "mistura" das variáveis: a 
+ ordem das entradas não altera o resultado final.
+
+  Essa ideia pode ser aplicada também à matemática básica: na adição simples, 2 + 3 é o mesmo que 3 + 2. O mesmo 
+ princípio se aplica às portas lógicas, onde podemos "trocar" as entradas sem preocupar com o impacto no  
+ resultado.
+
+   - Exemplo: Vamos imaginar que temos dois interruptores, A e B, que controlam uma lâmpada. Se os interruptores 
+             estão ligados em uma configuração AND, a lâmpada só acenderá se ambos os interruptores estiverem na 
+             posição "ligada" (ou seja, ambos forem 1). Aqui, a ordem em que acionamos os interruptores não 
+             importa — se ativarmos A antes de B, ou B antes de A, o resultado será o mesmo. O que importa é que 
+             ambos estejam ligados ao mesmo tempo.
+        
+              Por outro lado, se esses interruptores estiverem configurados em uma porta OR, a lâmpada acenderá se 
+             qualquer um dos interruptores for ativado. Novamente, a ordem em que pressionamos A ou B não faz 
+             diferença: se um deles for acionado, a lâmpada acenderá. Se apenas um interruptor for ligado, o 
+             resultado será 1 (luz acesa), e se os dois forem desligados, o resultado será 0 (luz apagada). A 
+             operação OR, assim como a AND, respeita a propriedade comutativa: não importa a ordem dos 
+             interruptores, o resultado final será o mesmo.
+
+  A Propriedade Comutativa é uma das fundações da lógica digital. Embora pareça simples, ela desempenha um papel   
+ vital na organização de expressões lógicas. Ela nos dá a flexibilidade de reordenar os operandos sem alterar o 
+ resultado final, o que facilita bastante o trabalho de projetar e simplificar circuitos lógicos.
+
+ 
