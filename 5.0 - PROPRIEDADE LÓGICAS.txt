@@ -1,0 +1,25 @@
+                                  PROPRIEDADE LÓGICAS
+
+
+ Imagine que o mundo digital funcione como um grande quebra-cabeça onde todas as peças precisam se encaixar 
+perfeitamente para que a tecnologia, desde smartphones até supercomputadores, opere de forma eficiente. Nesse 
+contexto, as propriedades lógicas são como regras fundamentais que organizam essas peças, garantindo que as 
+operações lógicas aconteçam corretamente. Quando engenheiros ou programadores projetam um sistema ou código, eles se 
+baseiam nessas regras para otimizar processos, reduzir desperdícios e aumentar a eficiência.
+
+ Pense, por exemplo, em como organizamos tarefas no dia a dia: se precisamos limpar a casa, fazer compras e ainda ir 
+ao banco, a ordem e a maneira como executamos essas tarefas podem simplificar ou complicar o processo. As 
+propriedades lógicas funcionam de maneira semelhante. Elas nos permitem organizar operações digitais da maneira mais 
+eficiente, eliminando redundâncias e garantindo que o sistema funcione de forma otimizada. Esse tipo de abordagem 
+não só economiza tempo, mas também poupa recursos, tanto no software quanto no hardware.
+
+ Outra analogia útil seria o funcionamento de um time de futebol. Cada jogador tem uma função específica, e o time 
+precisa trabalhar em conjunto para marcar gols. As propriedades lógicas são como as regras do jogo — elas definem 
+como cada jogador (ou operação) deve se comportar, e se o time seguir essas regras, o resultado será um jogo mais 
+fluido e eficiente. Quando entendemos essas propriedades, conseguimos não só evitar erros, mas também explorar 
+melhor as ferramentas à nossa disposição.
+
+ Agora que entendemos a importância de seguir certas regras para organizar nosso raciocínio, vamos nos aprofundar 
+nas propriedades lógicas. Elas são a base para otimizar processos, simplificar circuitos e criar sistemas digitais 
+inteligentes. Estas propriedades serão como uma caixa de ferramentas para resolver problemas mais complexos de 
+maneira eficiente. Vamos explorar como cada uma delas funciona e por que são tão essenciais para o mundo digital.
