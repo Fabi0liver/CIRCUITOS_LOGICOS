@@ -70,4 +70,91 @@ maneira eficiente. Vamos explorar como cada uma delas funciona e por que são t�
  vital na organização de expressões lógicas. Ela nos dá a flexibilidade de reordenar os operandos sem alterar o 
  resultado final, o que facilita bastante o trabalho de projetar e simplificar circuitos lógicos.
 
+
+* Propriedade Associativa:
+
+  A Propriedade Associativa afirma que a forma como agrupamos os operandos em uma expressão lógica não altera o 
+ resultado final, tanto para operações de AND (multiplicação lógica) quanto para operações de OR (adição lógica). 
+ Em outras palavras, se você alterar a posição dos parênteses em uma expressão que envolve três ou mais operandos, 
+ o resultado permanecerá o mesmo. Isso acontece porque, nas portas lógicas, o importante é a relação final entre 
+ os valores, e não a maneira como eles são agrupados.
+
+  Nas portas AND, a operação só resulta em 1 (verdadeiro) quando todos os operandos são 1. Se algum deles for 0, o 
+ resultado é 0 (falso). Já nas portas OR, basta que um dos operandos seja 1 para que o resultado seja 1; o único 
+ cenário em que o resultado será 0 é quando todos os operandos forem 0. Sendo assim, o efeito da associatividade 
+ pode ser visualizado ao reestruturarmos os parênteses em uma expressão: o resultado final se mantém inalterado, 
+ independentemente de como agrupamos as variáveis.
+
+   - AND: (A · B) · C = A · (B · C)
+
+   - OR:  (A + B) + C = A + (B + C)
+
+  Imagine que você está preparando uma salada de frutas. Você tem todas as frutas cortadas: maçã, banana, e 
+ morango. Agora, não importa se você mistura a maçã com a banana primeiro e depois adiciona o morango, ou se você 
+ mistura o morango com a banana antes de juntar a maçã — a salada final será a mesma. Isso porque o resultado 
+ final não depende da sequência em que você combina as frutas, mas da mistura completa. Da mesma forma, na lógica 
+ digital, as operações AND e OR seguem essa regra de "combinação" de variáveis: o agrupamento das entradas não 
+ altera o resultado final.
+
+  Essa ideia pode ser aplicada também à matemática básica: na adição simples, (2 + 3) + 4 é o mesmo que 
+ 2 + (3 + 4). O mesmo princípio se aplica às portas lógicas, onde podemos "reagrupar" as entradas sem nos  
+ preocupar com o impacto no resultado.
+
+   - Exemplo: Vamos imaginar que temos três interruptores, A, B e C, que controlam uma lâmpada. Se os 
+             interruptores estão ligados em uma configuração AND, a lâmpada só acenderá se todos os interruptores 
+             estiverem na posição "ligada" (ou seja, todos forem 1). Aqui, o agrupamento de quais interruptores 
+             verificamos primeiro não importa — se testarmos (A e B) antes de C, ou A antes de (B e C), o 
+             resultado será o mesmo. O que importa é que todos estejam ligados ao mesmo tempo.
+
+
+              Por outro lado, se esses interruptores estiverem configurados em uma porta OR, a lâmpada acenderá se 
+             qualquer um dos interruptores for ativado. Novamente, a forma como agrupamos A, B e C não faz 
+             diferença: se pressionarmos A, B ou C em qualquer ordem, o resultado será 1 (luz acesa). A operação 
+             OR, assim como a AND, respeita a propriedade associativa: não importa como agrupamos os 
+             interruptores, o resultado final será o mesmo.
+
+  A Propriedade Associativa é uma das fundações da lógica digital. Embora pareça simples, ela desempenha um papel 
+ crucial na organização de expressões lógicas. Ela nos dá a flexibilidade de reagrupar os operandos sem alterar o 
+ resultado final, o que facilita o projeto e simplificação de circuitos lógicos.
+
+
+- Propriedade Distributiva:
+
+  A Propriedade Distributiva afirma que uma operação lógica aplicada a um conjunto de operandos pode ser 
+ distribuída entre eles. Essa propriedade é fundamental tanto para operações de AND (representada como 
+ multiplicação lógica) quanto para operações de OR (adição lógica). Em outras palavras, se você tiver uma 
+ expressão que combine AND e OR, pode "distribuir" uma operação em relação à outra sem alterar o resultado final.
+
+  Nas portas lógicas, essa propriedade se revela claramente quando observamos que a combinação de entradas pode 
+ ser reorganizada. Por exemplo, na operação AND, se você tem uma variável A combinada com uma operação OR, você 
+ pode distribuir A sobre os operandos da operação OR. Assim, o resultado final será o mesmo, independentemente da 
+ forma como as operações são organizadas.
+
+   - A · (B + C) = (A · B) + (A · C)
+
+   - A + (B · C) = (A + B) · (A + C)
+
+  Imagine que você está preparando um molho para a sua salada. Você tem azeite, vinagre e temperos prontos. Agora, 
+ não importa se você mistura o azeite com o vinagre primeiro e depois adiciona os temperos, ou se você mistura o 
+ azeite com os temperos antes de adicionar o vinagre — o resultado final será o mesmo. Isso porque a combinação 
+ dos ingredientes, quando misturados, resulta em um molho saboroso, independente da ordem em que foram 
+ adicionados. Da mesma forma, na lógica digital, as operações AND e OR seguem essa regra de "distribuição" das  
+ variáveis: a forma como combinamos as operações não altera o resultado final.
+
+  Essa ideia também pode ser aplicada à matemática básica: na multiplicação, 2 × (3 + 4) é o mesmo que (2 × 3) +  
+ (2 × 4). O mesmo princípio se aplica às portas lógicas, onde podemos "distribuir" uma operação em relação a  
+ outras sem nos preocupar com o impacto no resultado.
+
+   - Exemplo: Vamos imaginar que temos dois interruptores, A e B, que controlam uma lâmpada. Se os interruptores 
+             estão ligados em uma configuração AND com uma operação OR envolvendo um terceiro interruptor C, a 
+             lâmpada só acenderá se A estiver ligado e B ou C estiverem também. Aqui, podemos ver que podemos 
+             distribuir a operação AND: A · (B + C) se torna (A · B) + (A · C). O que importa é que a combinação 
+             final dos interruptores resulta na lâmpada acesa.
+
+  A Propriedade Distributiva é uma das fundações da lógica digital. Embora pareça simples, ela desempenha um papel 
+ vital na organização de expressões lógicas. Ela nos dá a flexibilidade de redistribuir as operações sem alterar o 
+ resultado final, o que facilita bastante o trabalho de projetar e simplificar circuitos lógicos.
+
+ 
+
  
