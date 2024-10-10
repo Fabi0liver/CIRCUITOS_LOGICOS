@@ -285,4 +285,50 @@ maneira eficiente. Vamos explorar como cada uma delas funciona e por que são t�
  vital na organização de expressões lógicas. Ela nos dá a certeza de que certos valores, quando presentes, definem 
  resultados fixos, o que facilita bastante o trabalho de projetar e simplificar circuitos lógicos.
 
+
+- A Propriedade de Idempotência afirma que aplicar uma operação lógica a um valor com ele mesmo não altera o 
+ resultado final, tanto para operações de AND (representada como uma multiplicação lógica) quanto para operações 
+ de OR (adição lógica). Em outras palavras, combinar um valor lógico consigo mesmo em uma porta AND ou OR sempre 
+ resulta no próprio valor. Isso acontece porque, na lógica digital, o comportamento de um valor combinado consigo 
+ mesmo é sempre previsível e direto.
+
+  Nas portas AND, a operação entre um valor e ele mesmo sempre resulta no próprio valor. Por exemplo, se tivermos 
+ A · A (A AND A), o resultado será A, pois não há outro valor para influenciar o resultado. Já nas portas OR, o 
+ mesmo princípio se aplica: A + A (A OR A) também resultará em A, já que não há outra variável para mudar o 
+ resultado. Portanto, na Propriedade de Idempotência, podemos simplificar expressões lógicas removendo duplicações 
+ de variáveis, o que ajuda a otimizar circuitos.
+
+   - AND: A · A = A
+
+   - OR:  A + A = A
+
+  Imagine que você está preenchendo um formulário online e já preencheu o campo "nome" com seu nome. Se você 
+ tentar colocar seu nome de novo no mesmo campo, o sistema não precisa registrar a nova entrada, pois ela é 
+ exatamente igual à anterior. Da mesma forma, na lógica digital, não faz sentido "repetir" a mesma variável várias 
+ vezes em uma expressão, pois o resultado será sempre o mesmo. O sistema "entende" que uma repetição desnecessária 
+ não altera o resultado final.
+
+  Esse conceito também pode ser comparado à matemática: ao multiplicar um número por ele mesmo em determinadas 
+ circunstâncias, como no caso da idempotência, o valor final continua o mesmo. Na lógica digital, o princípio é 
+ semelhante — repetir variáveis não altera o comportamento do circuito.
+
+   - Exemplo: Imagine que você tem dois interruptores, mas, por algum motivo, ambos controlam a mesma lâmpada e 
+             estão sempre na mesma posição. Se esses interruptores estiverem configurados em uma porta 
+             AND (A AND A), o resultado será sempre igual ao valor do interruptor — se estiverem ambos na posição 
+             "ligada", a lâmpada acenderá; se estiverem ambos desligados, a lâmpada ficará apagada. Aqui, a 
+             idempotência garante que o resultado é o mesmo, independentemente da "duplicação" dos interruptores.
+
+              Da mesma forma, se os interruptores estiverem configurados em uma porta OR (A OR A), o comportamento 
+             será o mesmo. Se um interruptor estiver ligado, o resultado será 1 (lâmpada acesa), e se ambos 
+             estiverem desligados, o resultado será 0 (lâmpada apagada). A idempotência simplifica essas operações 
+             ao eliminar repetições de variáveis desnecessárias.
+
+ A Propriedade de Idempotência é uma das fundações da lógica digital. Embora pareça simples, ela desempenha um 
+papel importante na simplificação de expressões lógicas. Ao garantir que combinar um valor consigo mesmo não 
+altera o resultado, essa propriedade ajuda a tornar os circuitos mais eficientes, removendo duplicações 
+desnecessárias e permitindo que as operações sejam mais enxutas e rápidas.
+
+
+  
+
  
