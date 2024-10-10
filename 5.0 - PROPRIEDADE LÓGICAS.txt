@@ -329,6 +329,42 @@ altera o resultado, essa propriedade ajuda a tornar os circuitos mais eficientes
 desnecessárias e permitindo que as operações sejam mais enxutas e rápidas.
 
 
-  
+- Propriedade de Involução: 
 
- 
+  A Propriedade de Involução afirma que, ao aplicar uma operação de negação (NOT) duas vezes a uma variável ou 
+ valor, o resultado final será o próprio valor original. Em outras palavras, negar uma negação traz o valor de 
+ volta ao estado inicial. Isso acontece porque a primeira negação inverte o valor, mas a segunda negação reverte o 
+ valor de volta ao seu estado original. Portanto, aplicar o operador NOT duas vezes consecutivas é o mesmo que não 
+ aplicá-lo.
+
+  Quando usamos a porta NOT em uma variável, ela inverte o valor da entrada. Se a entrada for 1, o resultado será 
+ 0, e se a entrada for 0, o resultado será 1. Mas, se aplicarmos duas portas NOT em sequência, o resultado voltará 
+ a ser o valor inicial da entrada.
+
+   - NOT NOT A = A
+
+  Imagine que você está organizando os ingredientes para fazer um bolo e, por engano, coloca um ingrediente 
+ errado. Você então remove esse ingrediente errado e coloca o certo novamente. Ao final, a situação voltou ao 
+ ponto inicial, com todos os ingredientes corretos. Da mesma forma, aplicar a negação duas vezes (primeiro 
+ colocando algo "errado", depois corrigindo) resulta no valor original.
+
+  Essa ideia pode ser aplicada também em outras áreas: pense em um interruptor de luz. Se você desligá-lo (negar 
+ seu estado de ligado), a luz apagará. Mas, se você ligar o interruptor novamente (negar a negação), a luz 
+ acenderá de novo. O estado final da lâmpada (acesa) é o mesmo que o estado original. Esse é o conceito de 
+ involução na lógica digital.
+
+   - Exemplo: Vamos imaginar que temos um interruptor A que controla uma lâmpada. Se o interruptor estiver na 
+             posição "ligado" (valor 1), a lâmpada acende. Se aplicarmos uma negação (NOT), a lâmpada apaga (valor  
+             0). Agora, se aplicarmos uma segunda negação (outra porta NOT), a lâmpada acende novamente, porque o 
+             valor retorna ao estado original de 1.
+
+              Aqui, a primeira negação inverte o valor, mas a segunda negação cancela essa inversão, restaurando o 
+            valor inicial. Não importa quantas vezes você aplique a porta NOT duas vezes consecutivas — o 
+            resultado será sempre o valor original da variável.
+
+  A Propriedade de Involução é uma das fundações da lógica digital. Embora pareça simples, ela desempenha um papel 
+ importante ao garantir que valores possam ser invertidos e restaurados sem perda de informação. Essa propriedade 
+ nos dá a confiança de que podemos usar a negação de maneira controlada e previsível, o que facilita o design de  
+ circuitos e expressões lógicas.
+
+
