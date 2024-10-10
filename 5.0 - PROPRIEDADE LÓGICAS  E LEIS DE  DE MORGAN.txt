@@ -413,9 +413,15 @@ desnecessárias e permitindo que as operações sejam mais enxutas e rápidas.
 
                                   "Leis de De Morgan"
 
- Leis de De Morgan consiste em duas leis que descrevem como negar expressões lógicas compostas. Essas leis permitem converter uma negação de uma expressão que envolve operações AND e OR em uma forma equivalente, usando a operação oposta. Essencialmente, as Leis de De Morgan nos mostram como transformar a negação de uma conjunção(AND) em uma disjunção (OR) e vice-versa. Isso é extremamente útil em lógica digital, pois permite simplificar expressões e alterar circuitos para otimizar seu desempenho ou adaptar a lógica desejada.
+ Leis de De Morgan consiste em duas leis que descrevem como negar expressões lógicas compostas. Essas leis 
+permitem converter uma negação de uma expressão que envolve operações AND e OR em uma forma equivalente, usando a 
+operação oposta. Essencialmente, as Leis de De Morgan nos mostram como transformar a negação de uma conjunção(AND) 
+em uma disjunção (OR) e vice-versa. Isso é extremamente útil em lógica digital, pois permite simplificar 
+expressões e alterar circuitos para otimizar seu desempenho ou adaptar a lógica desejada.
 
- As Leis de De Morgan são fundamentais na lógica booleana e na álgebra lógica, usadas tanto em computação quanto em eletrônica digital. Elas fornecem uma maneira de transformar expressões lógicas complexas, tornando-as mais fáceis de entender e manipular. 
+ As Leis de De Morgan são fundamentais na lógica booleana e na álgebra lógica, usadas tanto em computação quanto 
+em eletrônica digital. Elas fornecem uma maneira de transformar expressões lógicas complexas, tornando-as mais 
+fáceis de entender e manipular. 
 
  Para compreender melhor as Leis de De Morgan, vamos imaginar uma situação cotidiana. Suponha que você está 
 organizando uma festa, e define duas regras: “Não quero que venham pessoas que não são meus amigos e não gostam de 
