@@ -368,3 +368,46 @@ desnecessárias e permitindo que as operações sejam mais enxutas e rápidas.
  circuitos e expressões lógicas.
 
 
+- Propriedade de Absorção:
+
+  A Propriedade de Absorção afirma que, em uma expressão lógica, certos termos podem ser "absorvidos" por outros, 
+ simplificando a expressão sem alterar seu resultado final. Isso acontece porque, em portas lógicas, algumas 
+ combinações de variáveis fazem com que uma das variáveis domine a operação, eliminando a necessidade de outras.
+
+  Na prática, isso significa que uma variável combinada com uma operação AND ou OR com uma expressão que contém 
+ ela mesma resulta na própria variável. Ou seja, a variável "absorve" a expressão que contém ela mesma, tornando-a 
+ redundante. Essa propriedade ajuda a simplificar circuitos lógicos, eliminando operações desnecessárias.
+
+  Nas portas AND, se uma variável A é combinada com a operação OR de si mesma com outra variável B, o resultado 
+ será A. Da mesma forma, nas portas OR, se a variável A é combinada com a operação AND de si mesma com outra 
+ variável B, o resultado também será A. Isso ocorre porque a variável A "absorve" a expressão maior, tornando-a 
+ irrelevante para o resultado final.
+
+   - AND: A · (A + B) = A
+
+   - OR:  A + (A · B) = A
+
+  Imagine que você está organizando um evento. Se você já decidiu que vai preparar uma refeição com arroz, e a 
+ segunda opção é arroz com feijão, não faz muita diferença incluir a opção "arroz com feijão" — o arroz já está 
+ garantido de qualquer forma! Na lógica digital, isso acontece quando uma variável aparece tanto de forma 
+ independente quanto em combinação com outra: o resultado final depende apenas dela.
+
+  Essa ideia também se aplica à simplificação de expressões matemáticas e lógicas: quando um termo domina a 
+ equação, outros se tornam redundantes. No caso da lógica digital, a Propriedade de Absorção nos ajuda a reduzir 
+ complexidade e a otimizar a construção de circuitos.
+
+   - Exemplo: Imagine que temos uma lâmpada controlada por dois interruptores, A e B. Se esses interruptores 
+             estiverem ligados em uma configuração AND, e se A estiver sempre ligado, não importa o estado de B — 
+             a lâmpada estará sempre acesa enquanto A estiver ativado. Neste caso, podemos "absorver" a influência 
+             de B, já que A sozinho é suficiente para determinar o resultado. Portanto, A · (A + B) = A.
+
+               Da mesma forma, em uma configuração OR, se o interruptor A estiver sempre ligado, mesmo que B 
+             esteja em uma configuração com AND, o resultado não mudará. Isso porque a presença de A já garante 
+             que a lâmpada estará acesa, então o efeito de B é absorvido. Portanto, A + (A · B) = A.
+
+  A Propriedade de Absorção é uma ferramenta poderosa para simplificar expressões lógicas. Embora possa parecer 
+ uma pequena otimização, ela é fundamental para garantir que sistemas lógicos operem de forma eficiente, 
+ eliminando redundâncias e tornando o processo de construção e análise de circuitos mais simples e direto.
+  
+
+ 
