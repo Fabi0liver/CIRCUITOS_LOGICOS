@@ -327,4 +327,3 @@ mundo digital que nos rodeia. Seja você um estudante de eletrônica, um program
 os dispositivos funcionam, as expressões lógicas são um alicerce importante. Elas proporcionam clareza, ajudam a 
 simplificar problemas complexos e, o mais importante, são uma ferramenta poderosa para construir soluções 
 eficientes e inteligentes.
-                
