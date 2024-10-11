@@ -539,5 +539,3 @@ desde os menores dispositivos até supercomputadores. Sem essas ferramentas conc
 inteligência artificial, criptografia e redes neurais seria significativamente mais lento. Portanto, o domínio das 
 propriedades lógicas é um dos pilares fundamentais no design de sistemas computacionais e eletrônicos, garantindo 
 que continuemos a criar tecnologia cada vez mais avançada, eficiente e acessível.
-
-   
