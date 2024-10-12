@@ -1,4 +1,4 @@
-                               LÓGICA TRADICIONAL E LÓGICA BOOLEANA
+                                  LÓGICA TRADICIONAL E LÓGICA BOOLEANA
 
  
  A lógica tradicional, também conhecida como lógica aristotélica, é um sistema de cálculo formal que surgiu na ]
