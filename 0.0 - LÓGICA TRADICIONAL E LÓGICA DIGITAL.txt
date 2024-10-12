@@ -157,7 +157,7 @@ lenta, sistemas operacionais e redes de comunicação, são construídas.
 
 
 
-                                "Aplicações da Lógica Digital"
+                                   "Aplicações da Lógica Digital"
 
  A lógica digital está no coração de praticamente todos os dispositivos tecnológicos modernos. Desde o momento em 
 que acordamos, utilizando smartphones para desligar o despertador, até quando navegamos na internet ou usamos 
