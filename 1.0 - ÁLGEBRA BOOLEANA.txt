@@ -26,7 +26,7 @@ nos bastidores. Isso mostra como o trabalho de Boole continua extremamente relev
 
 
 
-                                    "Contexto Histórico"
+                                       "Contexto Histórico"
 
  A Álgebra Booleana tem um contexto histórico fascinante e significativo, que remonta ao século XIX e desempenha 
 um papel fundamental no desenvolvimento da lógica matemática e da computação moderna. Tudo começou com o 
